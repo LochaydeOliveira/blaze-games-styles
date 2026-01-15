@@ -8,6 +8,21 @@
 	margin-top: 8px;
 }
 
+/* 1. Reset de Variáveis e Cores */
+:root {
+    --review-start-stop-color: #ffbc00 !important;
+    --primary-color: #ffbc00 !important;
+}
+
+/* 2. Forçar cor das estrelas de avaliação */
+.star-rating, 
+.stars, 
+.yampi-stars,
+[style*="--review-start-stop-color"] {
+    --review-start-stop-color: #ffbc00 !important;
+    color: #ffbc00 !important;
+}
+
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: #111117 !important;
