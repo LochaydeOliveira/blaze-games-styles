@@ -468,9 +468,18 @@ body.dark-mode .collection-12 .product-name {
 		justify-content: center;
 	}
 
-	.home .main-banner .splide__slide {
-		width: auto !important;
-	}
+    .home .main-banner .splide__slide {
+        width: 100%;
+    }
+
+    .splide__track {
+        display: block !important; /* Garante que o track ocupe o espaço correto */
+    }
+
+    .splide__list {
+        display: flex !important;
+        align-items: center;
+    }
 
 	.holder-banner-2 > .flex {
 		flex-direction: column;
