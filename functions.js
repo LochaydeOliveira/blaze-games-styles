@@ -496,7 +496,7 @@ $(window).on('load', function () {
             <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/blaze-promo.svg" alt="Promos da Blaze">
           </h1>
           <p>
-            Bem-vindo à <span>central de ofertas da DW GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
+            Bem-vindo à <span>central de ofertas da BLAZE GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
           </p>
         </div>
         <div>
