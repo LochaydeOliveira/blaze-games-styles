@@ -163,27 +163,27 @@ $(window).on('load', function () {
   // Array com as perguntas e respostas do FAQ
   var faqData = [
     {
-      question: "Quais formas de pagamento vocês aceitam?",
+      question: "QUAIS FORMAS DE PAGAMENTO VOCÊS ACEITAM?",
       answer: "Aceitamos cartão de crédito, débito, Pix e boleto bancário."
     },
     {
-      question: "Como recebo meu jogo após a compra?",
+      question: "COMO RECEBO MEU JOGO APÓS A COMPRA?",
       answer: "Você receberá o seu jogo por e-mail logo após a confirmação do pagamento, lembre sempre de verificar o seu email, inclusive caixa de spam."
     },
     {
-      question: "Os jogos são originais?",
-      answer: "Sim. Todos os jogos vendidos são originais, são comprados direto da playstation store, com suporte vitalício da dw games 💚"
+      question: "OS JOGOS SÃO ORIGINAIS?",
+      answer: "Sim. Todos os jogos vendidos são originais, são comprados direto da playstation store, com suporte vitalício da Blaze Games"
     },
     {
-      question: "Posso comprar um jogo de PS4 e usar no PS5?",
+      question: "POSSO COMPRAR UM JOGO DE PS4 E USAR NO PS5?",
       answer: "Não. Cada jogo comprado em nosso site é exclusivo para o console informado no momento da compra. Caso o jogo seja utilizado em outro console, ele não funcionará. Além disso, não realizamos troca de jogos, pois nossa logística não permite esse tipo de alteração :)."
     },
     {
-      question: "Não recebi meu jogo. O que faço?",
+      question: "NÃO RECEBI MEU JOGO. O QUE FAÇO?",
       answer: "Verifique todo seu email inclusive caixa de spam. Caso não encontre, entre em contato pelo nosso suporte com o número do pedido."
     },
     {
-      question: "Posso pedir reembolso?",
+      question: "POSSO PEDIR REEMBOLSO?",
       answer: "Sim, desde que o jogo não tenha sido enviado. como se trata de produto digital (licença única), não é possível reembolso após o envio da conta com o jogo. A licença funciona como um gift card: uma vez enviada, já pode ser usada e não pode ser reutilizada."
     }
   ];
