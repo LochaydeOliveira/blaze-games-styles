@@ -1276,7 +1276,7 @@ h2.faq-title {
 }
 
 .promotion .products-list {
-    background: #EC651A;
+    /* background: #EC651A; */
     padding: 60px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -1313,11 +1313,11 @@ h2.faq-title {
 }
 
 .main_promotion_content-1 {
-    background-image: url('https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/bg-page-promo-blaze.png');
+    background-image: url('https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/bg-page-promo-blaze.webp');
     background-repeat: no-repeat;
     background-position: center top; /* Centraliza horizontalmente e alinha no topo */
     background-size: cover;          /* Faz a imagem cobrir toda a área disponível */
-    background-attachment: fixed;    /* Opcional: mantém o fundo parado ao rolar */
+    background-attachment: fixed;     /* Opcional: mantém o fundo parado ao rolar */
 }
 
 @media screen and (max-width: 768px) {
