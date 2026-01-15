@@ -44,23 +44,6 @@ body.dark-mode.category {
 	padding-bottom: 125%;
 }
 
-.header-content .search-btn {
-	left: auto;
-	right: 10px;
-	top: 0;
-	padding: 10px;
-	border-radius: 0;
-}
-
-.header-content .search-bar {
-	display: flex;
-}
-
-.icon-search {
-	width: 24px;
-	height: 24px;
-	background: url(https://i.imgur.com/n4tMLSo.png) center no-repeat;
-}
 
 .home .banner-1.banner_1-2 {
 	margin-top: 30px !important;
