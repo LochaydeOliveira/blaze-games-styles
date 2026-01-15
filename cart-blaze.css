@@ -1,0 +1,100 @@
+/* --- 1. BARRA DE ANÚNCIOS (Injetada via CSS no topo do Body) --- */
+body::before {
+    content: "PAGAMENTO VIA PIX ENVIAMOS EM 24H"; /* Texto Inicial */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(270deg, #ec651a, #1c1d20, #ec651a, #000000);
+    background-size: 400% 400%;
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 9999;
+    position: relative;
+    animation: gradient-flow 15s ease infinite, slide-ads 12s infinite;
+}
+
+/* --- 2. BANNER DE FUNDO (Injetado via CSS no Header) --- */
+header.clearfix::after {
+    content: "";
+    position: absolute;
+    top: 40px; /* Logo abaixo da barra de anúncios */
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, #000000 100%), 
+                url(https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/banner-bg-cart.webp) no-repeat center;
+    background-size: cover;
+    z-index: -1; /* Fica atrás do conteúdo */
+    pointer-events: none;
+}
+
+/* --- 3. REMOVER BOTÃO DO HEADER VIA CSS --- */
+header .pull-right.btn-primary, 
+header .item-security {
+    display: none !important;
+}
+
+/* --- 4. AJUSTES DE ESTRUTURA E CORES --- */
+body {
+    background-color: #000000 !important;
+    overflow-x: hidden;
+}
+
+header.clearfix {
+    background: transparent !important;
+    border: none !important;
+    position: relative;
+    z-index: 10;
+}
+
+/* Deixar os containers do carrinho transparentes para ver o banner ao fundo */
+.inner-body, .container, .holder-cols-checkout {
+    background: transparent !important;
+}
+
+/* Cards do Carrinho com Contraste Blaze */
+.holder-cols-checkout .box-checkout,
+.holder-cols-checkout .cart-resume,
+.item-cart {
+    background: #1c1d20 !important;
+    border: 1px solid #333 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+}
+
+/* Texto Branco Puro (Legibilidade) */
+.ctx-title, .title, .product-name, .price, .label-cart, 
+.box-resume .detail .label, .box-resume .detail .value,
+.cart-resume .detail, span, p, .desc, .f12, .f14 {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Laranja Blaze para Totais e Botões */
+.total-price, .cart_total, .detail.total .value, .holder-number {
+    color: #ec651a !important;
+}
+
+.btn-primary, .btn-submit-cart {
+    background-color: #ec651a !important;
+    border: none !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+}
+
+/* --- ANIMAÇÕES --- */
+@keyframes gradient-flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes slide-ads {
+    0%, 48% { content: "PAGAMENTO VIA PIX ENVIAMOS EM 24H"; }
+    52%, 100% { content: "ENTREGA GARANTIDA EM TODO O BRASIL"; }
+}
