@@ -1353,7 +1353,12 @@ section.dw-promos-hero {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 60px;
+    margin: 0 auto;
+}
+
+.append-promo-content p {
+    max-width: 275px;
+    margin: 0 auto;
 }
 
 .promotion .products-list {
