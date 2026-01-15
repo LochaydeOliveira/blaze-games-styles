@@ -101,17 +101,6 @@ body.dark-mode.category {
 	height: 44px;
 }
 
-.header-content .mini-cart-holder {
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	padding: 12px 24px;
-	height: 44px;
-	width: auto;
-	border-radius: 6px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	background: rgba(255, 255, 255, 0.05);
-}
 
 .header-content {
 	border-bottom: 1px solid #303138;
@@ -545,16 +534,6 @@ body.dark-mode .collection-12 .product-name {
 		margin: 140px 0 0 !important;
 	}
 
-	.mini-cart-holder .-align:before {
-		content: 'Carrinho';
-		font-weight: normal;
-	}
-
-	.rkt-header-shopping-page-redirect:before {
-		content: 'Minha conta';
-		font-weight: normal;
-	}
-
 	.has-carousel .flex.-between .collection-link {
 		margin-right: 130px;
 	}
@@ -692,13 +671,6 @@ body.dark-mode .collection-12 .product-name {
 	.container.main-product-content .main-product-image {
 		aspect-ratio: auto;
 		height: fit-content;
-	}
-
-	.header-content .mini-cart-holder,
-	.rkt-header-shopping-page-redirect {
-		padding: 0;
-		width: 50px;
-		height: 50px;
 	}
 
 	.header-content-right .cart-quantity {
@@ -1012,16 +984,6 @@ body.dark-mode .ratings-list .holder-review {
 	content: '10';
 }
 
-body.dark-mode .rkt-header-shopping-page-redirect svg {
-	display: none;
-}
-
-body.dark-mode .rkt-header-shopping-page-redirect:after {
-	content: '';
-	width: 24px;
-	height: 24px;
-	background: url(https://i.imgur.com/aHD3Q3y.png) center no-repeat;
-}
 
 .main-product-buy-button-holder .btn {
 	background: #EC651A;
