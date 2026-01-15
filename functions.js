@@ -539,7 +539,7 @@ function tryInsertRatingTotal(retries = 12, delay = 250) {
   if ($holder.length && $('.rating-total').length === 0) {
     $holder.after(`
       <div class="rating-total">
-          <a href="https://www.instagram.com/stories/highlights/18277528633168627/">
+          <a href="https://www.instagram.com/stories/blazegamesdigitais/">
               <span>+1000 avaliações</span>
               <strong><span>Clique aqui</span> para ver os comentários de nossos clientes!</strong>
           </a>
