@@ -117,7 +117,7 @@ body.dark-mode.category {
 }
 
 .section-header:has(.h-left-container) .header-content-right {
-	gap: 40px;
+	gap: 0px;
 }
 
 .header-content-right .cart-quantity {
@@ -126,7 +126,6 @@ body.dark-mode.category {
 
 .mini-cart-holder .-align {
 	align-items: center;
-	gap: 10px;
 }
 
 .container.main-product-content .quantity-selector input {
@@ -664,7 +663,7 @@ body.dark-mode .collection-12 .product-name {
 }
 
 	.section-header:has(.h-left-container) .header-content-right {
-		gap: 12px;
+		gap: 0px;
 	}
 
 	.container.main-product-content .main-product-image .mobile-zoom-image,
