@@ -1143,8 +1143,9 @@ div#faq-section {
 }
 
 .faq-header {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    color: #ff9256;
 }
 
 .faq-item {
