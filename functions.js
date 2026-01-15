@@ -447,8 +447,8 @@ $(window).on('load', function () {
   });
   
   // Variáveis configuráveis
-  const ctRumblePrice = 'R$ 143,91';
-  const ctRumbleLink = 'https://www.dwgames.com.br/ghost-of-yotei-ps5-edicao-standard-midia-digital/p';
+  const ctRumblePrice = 'R$ 107,91';
+  const ctRumbleLink = 'https://www.blazegames.com.br/battlefield-6-ps5-bf-6-edicao-standard-midia-digital/p';
   
   // Gera o HTML do card com imagem para desktop e mobile
   function CrashTeamRumbleCard() {
@@ -463,7 +463,7 @@ $(window).on('load', function () {
             </div>
             <div class="cta-yt-video">
               <span>
-                Comprar agora <span>↗</span>
+                Comprar Agora <span>↗</span>
               </span>
             </div>
           </div>
