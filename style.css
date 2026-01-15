@@ -675,9 +675,9 @@ body.dark-mode .collection-12 .product-name {
 	}
 
 	.header-content-right .cart-quantity {
-		position: absolute;
-		right: -24px;
-		top: -15px;
+        position: absolute;
+        right: 13px;
+        top: 0px;
 	}
 
 	.menu-trigger {
