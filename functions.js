@@ -489,7 +489,7 @@ $(window).on('load', function () {
   function renderDWPromosHero() {
     return `
       <section class="dw-promos-hero">
-      <img class="percent-promo" src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/percent-promo.png" alt="Porcentagem DW Promo"/>
+      <img class="percent-promo" src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/percent-promo-blaze.png" alt="Porcentagem DW Promo"/>
           <div class="append-promo-content">
         <div>
           <h1>
