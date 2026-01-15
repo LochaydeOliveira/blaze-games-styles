@@ -7,8 +7,7 @@
 }
 
 /* 3. Garantia para os elementos principais da Yampi */
-body, 
-html, 
+ 
 h1, h2, h3, h4, h5, h6, 
 button {
     font-family: 'AGRESSIVE', sans-serif !important;
