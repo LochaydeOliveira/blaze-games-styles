@@ -1505,3 +1505,14 @@ section.dw-promos-hero {
         bottom: 133px;
     }
 }
+
+.icon-search.i-s-header {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}

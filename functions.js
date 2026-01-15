@@ -559,26 +559,40 @@ $(document).ready(function(){
 });
 
   
-  (function($){
-    function tryInsertIconSearch(retries = 10, delay = 200) {
-      if ($(window).width() >= 768) return;
-      var $mini = $('.header-content .rkt-header-shopping-page-redirect');
-      if ($mini.length && !$('.icon-search.i-s-header').length) {
-        $mini.before('<div class="icon-search i-s-header" role="button" tabindex="0"></div>');
-        $('.icon-search.i-s-header').on('click', function(){
-          $('.holder-search').toggleClass('open');
-        });
-        return;
-      }
-      if (retries > 0) setTimeout(function(){ tryInsertIconSearch(retries - 1, delay); }, delay);
+(function($){
+  function tryInsertIconSearch() {
+    // 1. Só executa em mobile (conforme a lógica original)
+    if ($(window).width() >= 768) return;
+
+    // 2. Define o alvo onde a lupa deve ser inserida (referência da Yampi)
+    var $target = $('.header-content .rkt-header-shopping-page-redirect');
+
+    // 3. VERIFICAÇÃO DE SEGURANÇA: Só insere se o alvo existir E se a lupa já não estiver lá
+    if ($target.length && !$('.icon-search.i-s-header').length) {
+      $target.before('<div class="icon-search i-s-header" role="button" tabindex="0"></div>');
+      
+      // Ativa o clique para abrir a busca
+      $('.icon-search.i-s-header').on('click', function(e){
+        e.preventDefault();
+        $('.holder-search').toggleClass('open');
+      });
+      
+      console.log("Ícone de busca injetado com sucesso.");
     }
-  
-    $(function(){ // DOM ready
-      tryInsertIconSearch();
-      // opcional: re-tentar ao redimensionar para mobile
-      $(window).on('resize', function(){ if ($(window).width() < 768) tryInsertIconSearch(); });
+  }
+
+  $(function(){ 
+    // Executa uma vez quando o documento estiver pronto
+    tryInsertIconSearch();
+    
+    // Executa apenas quando a janela for redimensionada, com uma pequena pausa para não bugar
+    var resizeTimer;
+    $(window).on('resize', function(){
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(tryInsertIconSearch, 250);
     });
-  })(jQuery);
+  });
+})(jQuery);
 
   // Script para identificar opção Primária/Secundária e adicionar textos explicativos - com tentativas
 
