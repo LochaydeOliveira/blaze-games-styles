@@ -489,11 +489,11 @@ $(window).on('load', function () {
   function renderDWPromosHero() {
     return `
       <section class="dw-promos-hero">
-      <img class="percent-promo" src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/percent-promo-blaze.png" alt="Porcentagem DW Promo"/>
+      <img class="percent-promo" src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/percent-promo-blaze.png" alt="Porcentagem Blaze Promo"/>
           <div class="append-promo-content">
         <div>
           <h1>
-            <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/blaze-promo.svg" alt="Promos da DW">
+            <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/blaze-promo.svg" alt="Promos da Blaze">
           </h1>
           <p>
             Bem-vindo à <span>central de ofertas da DW GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
