@@ -1189,7 +1189,9 @@ p.faq-answer {
 }
 
 h2.faq-title {
-	margin-bottom: 64px;
+    margin-bottom: 64px;
+    margin-top: 5rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
