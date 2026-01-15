@@ -36,43 +36,43 @@ $(window).on('load', function () {
       var games = [
         {
           name: 'Call of Duty',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/cod.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/cod.png',
           alt: 'Call of Duty',
           link: 'https://dwgames.com.br/busca?q=call+of+duty'
         },
         {
           name: 'God of War',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/gow.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/gow.png',
           alt: 'God of War',
           link: 'https://dwgames.com.br/busca?q=god+of+war'
         },
         {
           name: 'FC 25',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/fc.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/fc.png',
           alt: 'FC 25',
           link: 'https://dwgames.com.br/busca?q=fc+25'
         },
         {
           name: 'Forza',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/forza.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/forza.png',
           alt: 'Forza',
           link: 'https://dwgames.com.br/busca?q=forza'
         },
         {
           name: 'Grand Theft Auto',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/gta.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/gta.png',
           alt: 'Grand Theft Auto',
           link: 'https://dwgames.com.br/busca?q=grand+theft+auto'
         },
         {
           name: 'UFC',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/ufc.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/ufc.png',
           alt: 'UFC',
           link: 'https://dwgames.com.br/busca?q=ufc'
         },
         {
           name: 'Formula 1',
-          image: 'https://symmagency.github.io/dwgames/assets/gamescat/fone.png',
+          image: 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/gamescat/fone.png',
           alt: 'Formula 1',
           link: 'https://dwgames.com.br/busca?q=f1'
         }
@@ -387,8 +387,8 @@ $(window).on('load', function () {
   // Tente até conseguir
 
   // Definição das variáveis e dados
-  const leftImageUrl = 'https://symmagency.github.io/dwgames/assets/banners/bfsix.png';
-  const rightImageUrl = 'https://symmagency.github.io/dwgames/assets/banners/wwm.png';
+  const leftImageUrl = 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/bfsix.png';
+  const rightImageUrl = 'https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/wwm.png';
   const prices = [
     { value: 'R$ 10', link: '/busca?q=ps&max=10' },
     { value: 'R$ 20', link: '/busca?q=ps&max=20' },
@@ -489,11 +489,11 @@ $(window).on('load', function () {
   function renderDWPromosHero() {
     return `
       <section class="dw-promos-hero">
-      <img class="percent-promo" src="https://symmagency.github.io/dwgames/assets/banners/percent-promo.png" alt="Porcentagem DW Promo"/>
+      <img class="percent-promo" src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/percent-promo.png" alt="Porcentagem DW Promo"/>
           <div class="append-promo-content">
         <div>
           <h1>
-            <img src="https://symmagency.github.io/dwgames/assets/banners/dw-promo.svg" alt="Promos da DW">
+            <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/dw-promo.svg" alt="Promos da DW">
           </h1>
           <p>
             Bem-vindo à <span>central de ofertas da DW GAMES</span> — o lugar certo para gamers que querem jogos originais para PS4/PS5 com preço baixo, entrega digital rápida e segurança garantida.
