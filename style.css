@@ -663,13 +663,6 @@ body.dark-mode .collection-12 .product-name {
     text-transform: uppercase;
 }
 	
-	.header-content-right .i-s-header {
-    height: 50px;
-    width: 50px;
-    background-color: rgba(255, 255, 255, .05);
-    border: 1px solid rgba(255, 255, 255, .1);
-    border-radius: 6px;
-}
 
 	.section-header:has(.h-left-container) .header-content-right {
 		gap: 0px;
@@ -1508,16 +1501,17 @@ section.dw-promos-hero {
 
 /* Localize a classe .icon-search.i-s-header e substitua por esta: */
 .icon-search.i-s-header {
-    background-image: url(https://i.imgur.com/n4tMLSo.png) !important; /* Imagem branca original */
+    background-image: url(https://i.imgur.com/n4tMLSo.png) !important;
     background-repeat: no-repeat !important;
-    background-size: contain !important;
     background-position: center !important;
-    width: 24px !important;
-    height: 24px !important;
+    width: 32px !important;
+    height: 32px !important;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 12px; /* Espaço para não colar no ícone de conta */
+    position: relative;
+    left: 7px;
+    top: 7px;
 }
 
 /* Forçar ícones de conta e carrinho a ficarem branco puro */
