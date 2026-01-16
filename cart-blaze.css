@@ -1,22 +1,17 @@
-/* --- 1. CONFIGURAÇÃO DO BACKGROUND TOTAL --- */
 body {
-    /* Camada 1: Sombra no topo para destacar a barra de anúncios */
-    /* Camada 2: Gradiente suave para o banner não "acabar" do nada e virar preto */
-    /* Camada 3: O banner da Blaze */
     background: 
         linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 15%),
         linear-gradient(to bottom, rgba(0,0,0,0) 0%, #0000009c 600px), 
         url('https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/banner-bg-cart.png') no-repeat top center !important;
     
-    background-size: cover !important; /* Expande na largura total */
-    background-color: #000000 !important; /* Preenche o resto de baixo com preto puro */
+    background-size: cover !important; 
+    background-color: #000000 !important;
     background-attachment: scroll !important;
     
     color: #ffffff !important;
     font-family: 'Inter', sans-serif !important;
 }
 
-/* --- 2. BARRA DE ANÚNCIOS FLUIDA --- */
 body::before {
     content: "PAGAMENTO VIA PIX ENVIAMOS EM 24H";
     display: flex;
@@ -35,8 +30,6 @@ body::before {
     animation: gradient-flow 8s ease infinite, slide-ads 12s infinite;
 }
 
-/* --- 3. TRANSPARÊNCIA DA ESTRUTURA --- */
-/* Isso remove qualquer "parede" branca da Yampi que esconderia o seu banner */
 header.clearfix, 
 .inner-body, 
 .container, 
@@ -58,24 +51,40 @@ header.clearfix,
     color: #d1d1d1!important;
 }
 
-/* Ajuste para o formulário aparecer abaixo da parte principal do banner */
+.black-70 {
+    color: #ffffff !important;
+}
+
+.black-80 {
+    color: #8d7a7a !important;
+}
+
 .holder-cols-checkout {
     margin-top: 80px !important; 
     position: relative;
     z-index: 10;
 }
 
-/* --- 4. ESTILO DOS CARDS (ITENS DO CARRINHO) --- */
+.holder-total-cart .table-total .price {
+    color: var(--cart-total-color)!important;
+}
+
+.holder-total-cart {
+    background: #1c1d20!important;
+    border: 1px solid #ec631a71;
+}
+
+
 .holder-cols-checkout .box-checkout,
 .holder-cols-checkout .cart-resume,
 .item-cart {
-    background: #1c1d20 !important; /* Fundo sólido para os campos ficarem legíveis */
+    background: #1c1d20 !important;
     border: 1px solid #333 !important;
     border-radius: 10px !important;
     box-shadow: 0 15px 50px rgba(0,0,0,0.9) !important;
 }
 
-/* --- 5. TEXTOS E CORES (TEMA DARK BLAZE) --- */
+
 .ctx-title, .title, .product-name, .price, .label-cart, 
 .box-resume .detail .label, .box-resume .detail .value,
 .cart-resume .detail, span, p, .desc, .f12, .f14 {
@@ -106,6 +115,10 @@ header.clearfix,
     color: var(--step-tag-txt-color)!important;
 }
 
+.table-cart .table-cart-head {
+    color: #ffffff!important;
+}
+
 .holder-cols-checkout .discount-info {
     border: dashed 2px #ec651a!important;
     background: none!important;
@@ -122,7 +135,7 @@ header.clearfix,
     color: #000!important;
 }
 
-/* Destaque em Laranja Blaze */
+
 .total-price, .cart_total, .detail.total .value, .holder-number {
     color: #ec651a !important;
     font-weight: 800 !important;
@@ -135,13 +148,13 @@ header.clearfix,
     text-transform: uppercase !important;
 }
 
-/* Esconder elementos do topo que poluem o banner */
+
 header .pull-right.btn-primary, 
 header .item-security {
     display: none !important;
 }
 
-/* --- 6. RODAPÉ --- */
+
 footer {
     background-color: #000000 !important;
     border-top: 1px solid #ec651a75 !important;
@@ -155,7 +168,7 @@ span.f11.black-50::after {
     line-height: 1.8;
 }
 
-/* --- 7. ANIMAÇÕES --- */
+
 @keyframes gradient-flow {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -166,9 +179,9 @@ span.f11.black-50::after {
     52%, 100% { content: "ENTREGA GARANTIDA EM TODO O BRASIL"; }
 }
 
-/* Ajuste para telas menores (Mobile) */
+
 @media (max-width: 768px) {
     body {
-        background-size: auto 400px, 100% auto, auto 400px !important; /* Ajusta a proporção no celular */
+        background-size: auto 400px, 100% auto, auto 400px !important; 
     }
 }
