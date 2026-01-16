@@ -91,6 +91,21 @@ header.clearfix,
     color: #fdfdfd!important;
 }
 
+
+@media (max-width: 500px) {
+.checkout-step.active .info {
+    color: #fff!important;
+ }
+
+.checkout-step .info {
+    color: #d9d9d9!important;
+ }
+}
+
+.holder-cols-checkout .box-checkout.active .box-title .holder-number {
+    color: var(--step-tag-txt-color)!important;
+}
+
 .holder-cols-checkout .discount-info {
     border: dashed 2px #ec651a!important;
     background: none!important;

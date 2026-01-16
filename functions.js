@@ -20,7 +20,7 @@ $(window).on('load', function () {
           html: '' +
             '<span>Desenvolvimento</span> ' +
             '<a href="https://agencialed.com/" target="_blank" rel="noreferrer nofollow" class="yampi">' +
-            '  <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/logo-led-branca.png" alt="Agência LED" width="110" height="24" class="h-va-middle h-inline-block h-ml10 loaded">' +
+            '  <img src="https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/logo-led-branca.png" alt="Agência LED" width="55" height="28" class="h-va-middle h-inline-block h-ml10 loaded">' +
             '</a>'
         });
   
