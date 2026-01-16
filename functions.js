@@ -448,7 +448,7 @@ $(window).on('load', function () {
   
   // Variáveis configuráveis
   const ctRumblePrice = 'R$ 107,91';
-  const ctRumbleLink = 'https://www.blazegames.com.br/battlefield-6-ps5-bf-6-edicao-standard-midia-digital/p';
+  const ctRumbleLink = 'https://www.blazegames.com.br/resident-evil-requiem-ps5-pre-venda-midia-digital/p';
   
   // Gera o HTML do card com imagem para desktop e mobile
   function CrashTeamRumbleCard() {

@@ -220,7 +220,7 @@ body.dark-mode:not(.category) input:not([type='checkbox'], [type='radio']) {
     align-items: center;
     justify-content: flex-end;
     padding: 40px;
-    background: url(https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/resident-evil.webp) no-repeat center;
+    background: url(https://lochaydeoliveira.github.io/blaze-games-styles/assets/banners/resident-evil-.webp) no-repeat center;
     background-size: cover;
     border-radius: 10px;
 }
