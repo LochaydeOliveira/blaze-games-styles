@@ -447,7 +447,7 @@ $(window).on('load', function () {
   });
   
   // Variáveis configuráveis
-  const ctRumblePrice = 'R$ 107,91';
+  const ctRumblePrice = 'R$ 152,91';
   const ctRumbleLink = 'https://www.blazegames.com.br/resident-evil-requiem-ps5-pre-venda-midia-digital/p';
   
   // Gera o HTML do card com imagem para desktop e mobile
